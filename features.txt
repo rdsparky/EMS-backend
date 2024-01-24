@@ -1,0 +1,11 @@
+1) Project Setup
+
+2) AUTH feature
+	a) Sign-in
+	b) log-in 
+	c) log-out
+	d) forget password
+3) Dashboard/home
+	a) user list
+	b) update user info
+	
