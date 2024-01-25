@@ -44,6 +44,7 @@ class User(AbstractBaseUser, BaseModel):
     password = models.CharField(max_length=255, blank=False, null=True)
     city = models.CharField(max_length=255, blank=True, null=True)
     state = models.CharField(max_length=255, blank=True, null=True)
+    is_verified = models.BooleanField(default=False)
     is_super_user = models.BooleanField(default=False)
     is_staff = models.BooleanField(default=False)
     objects = MyUserManager()

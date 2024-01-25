@@ -71,7 +71,7 @@ REST_FRAMEWORK = {
     ),
     "DEFAULT_FILTER_BACKENDS": ("django_filters.rest_framework.DjangoFilterBackend",),
     "DEFAULT_SCHEMA_CLASS": "rest_framework.schemas.coreapi.AutoSchema",
-    "DEFAULT_RENDERER_CLASSES": ("base.renderers.ApiRenderer",),
+    "DEFAULT_RENDERER_CLASSES": ("common.renderers.ApiRenderer",),
 }
 
 SIMPLE_JWT = {
